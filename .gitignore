@@ -1,0 +1,23 @@
+# Python Cache
+__pycahce__/
+*.pyc
+
+# Virtual Envs
+.venv/
+env/
+venv/
+
+# Data (Large, not in git history)
+data/raw/*
+data/process/*
+data/mels/*
+!data/.gitkeep
+
+# Models / Artifacts
+models_store/*
+!models_store/.gitkeep
+
+# Os/Editor junk
+.DS_Store
+Thumbs.db
+
